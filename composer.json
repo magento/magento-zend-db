@@ -1,0 +1,26 @@
+{
+    "name": "magento/zend-db",
+    "description": "Magento Zend Framework 1",
+    "type": "library",
+    "keywords": [
+        "framework",
+        "zf1"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.0.0",
+        "magento/zend-exception": "^1.16",
+        "magento/zend-loader": "^1.16"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zend_Db": "library/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.16.x-dev"
+        }
+    }
+}
