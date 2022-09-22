@@ -1,10 +1,9 @@
 {
     "name": "magento/zend-db",
-    "description": "Magento Zend Framework 1",
+    "description": "Zend Framework 1 Db package",
     "type": "library",
     "keywords": [
-        "framework",
-        "zf1"
+        "framework", "zf1", "zend", "db"
     ],
     "homepage": "http://framework.zend.com/",
     "license": "BSD-3-Clause",
@@ -12,6 +11,10 @@
         "php": ">=7.0.0",
         "magento/zend-exception": "^1.16",
         "magento/zend-loader": "^1.16"
+    },
+    "replace": {
+        "zf1/zend-db": "^1.12",
+        "zfs1/zend-db": "^1.12"
     },
     "autoload": {
         "psr-0": {
