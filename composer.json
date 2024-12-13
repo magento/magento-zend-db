@@ -20,7 +20,7 @@
     "require": {
         "php": ">=7.0.0",
         "magento/zend-exception": "dev-php84_deprication_fix",
-        "magento/zend-loader": "php84_deprication_fix"
+        "magento/zend-loader": "dev-php84_deprication_fix"
     },
     "replace": {
         "zf1/zend-db": "^1.12",
